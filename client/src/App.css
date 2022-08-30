@@ -1,0 +1,107 @@
+@import '~antd/dist/antd.css';
+.App {
+  width: 100vw;
+  height: 100vh;
+  background: #dcdcdc;
+}
+
+.heading {
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.container {
+  width: 500px;
+  min-height: 300px;
+  padding: 10px;
+}
+
+.header_buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.sort_label {
+  margin-top: 5px;
+  margin-right: 3px;
+}
+
+.sort_picker {
+  display: flex;
+  justify-content: flex-end;
+  margin: 10px 0;
+}
+
+.task_container {
+  margin: 10px 0;
+  background: white;
+  border-radius: 20px;
+  padding: 5px 15px;
+  font-family: Helvetica Neue, system-ui;
+}
+
+.task_header {
+  display: flex;
+}
+
+.task_user {
+  flex: 1;
+}
+
+.task_name {
+  font-size: 11pt;
+  font-weight: 600;
+}
+
+.task_email {
+  color: gray;
+  margin-top: -5px;
+}
+
+.task_checkbox {
+  margin-top: 10px;
+}
+
+.task_text {
+  font-size: 15pt;
+
+}
+
+.task_changed {
+  color: coral;
+}
+
+.task_footer{
+  display: flex;
+  justify-content: space-between;
+}
+
+.task_button_container {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.update_button {
+  margin-right: 10px;
+}
+
+.update_task_form {
+  display: flex;
+}
+
+.line_through {
+  text-decoration: line-through;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+}
