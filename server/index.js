@@ -6,6 +6,7 @@ const Task = require("./models/task");
 const User = require('./models/user');
 const jwt = require('jsonwebtoken')
 const bcrypt = require('bcryptjs')
+require('dotenv').config()
 
 connection()
 

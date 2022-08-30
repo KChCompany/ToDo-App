@@ -1,5 +1,5 @@
 import axios from "axios";
-const apiUrl = "http://localhost:8080";
+const apiUrl = "https://todo-app-kch.herokuapp.com";
 
 export async function getTasks(page, sort) {
     return axios.get(apiUrl, {params: {page, sort}});
