@@ -33,7 +33,8 @@ function App(props) {
     function handleChangeVisibility(popoverName) {
         switch (popoverName) {
             case 'ADD_TASK_POPOVER': props.setAddTaskPopoverVisibility(!props.addTaskPopoverVisibility); break;
-            case 'LOGIN_POPOVER': props.setLoginPopoverVisibility(!props.loginPopoverVisibility); break
+            case 'LOGIN_POPOVER': props.setLoginPopoverVisibility(!props.loginPopoverVisibility); break;
+            default: break;
         }
     }
 
