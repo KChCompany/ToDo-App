@@ -15,8 +15,7 @@ function TaskList(props) {
             }
         }
         fetchData()
-
-    },[])
+    },[]) // eslint-disable-line react-hooks/exhaustive-deps
 
     async function handleDelete(id) {
         try {
