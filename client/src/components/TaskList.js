@@ -16,7 +16,7 @@ function TaskList(props) {
         }
         fetchData()
 
-    },[props])
+    },[])
 
     async function handleDelete(id) {
         try {
@@ -35,7 +35,6 @@ function TaskList(props) {
 
     async function handleUpdate(id, completed) {
         try {
-            console.log(id)
             await updateTask(id, {
                 completed
             }, props.token)
